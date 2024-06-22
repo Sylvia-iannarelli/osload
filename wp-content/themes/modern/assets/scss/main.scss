@@ -1,0 +1,21 @@
+/* FILE: main.scss */
+
+//
+// Main theme styles
+//
+// @package    Modern
+// @copyright  WebMan Design, Oliver Juhas
+//
+// @since    2.0.0
+// @version  2.6.0
+//
+
+$rtl_multiplier: 1; // For `translateX` transform, for example.
+
+@import 'setup';
+
+@import 'css-vars';
+
+@import 'starter/starter';
+
+@import 'main/main';

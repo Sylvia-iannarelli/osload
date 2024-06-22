@@ -1,0 +1,19 @@
+/* FILE: main-rtl.scss */
+
+//
+// Main theme styles (RTL)
+//
+// @package    Modern
+// @copyright  WebMan Design, Oliver Juhas
+//
+
+$language_direction: rtl;
+$rtl_multiplier: -1; // For `translateX` transform, for example.
+
+@import 'setup';
+
+@import 'css-vars';
+
+@import 'starter/starter';
+
+@import 'main/main';
